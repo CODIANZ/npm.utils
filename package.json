@@ -1,6 +1,6 @@
 {
   "name": "@codianz/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CODIANZ general utilities.",
   "main": "./dist/src/index.js",
   "scripts": {
@@ -9,12 +9,19 @@
     "test": "tsc && node ./dist/test/test.js",
     "deploy": "npm publish --access=public"
   },
+  "keywords": [
+    "html",
+    "string",
+    "css",
+    "array",
+    "Typescript"
+  ],
   "author": "Terukazu Inoue",
   "license": "MIT",
-  "homepage": "https://github.com/CODIANZ/util",
+  "homepage": "https://github.com/CODIANZ/utils",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CODIANZ/util.git"
+    "url": "https://github.com/CODIANZ/utils.git"
   },
   "devDependencies": {
     "typescript": "^4.3.4"
