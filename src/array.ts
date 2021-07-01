@@ -32,3 +32,12 @@ export function reduceSameItems<T>(
   });
   return Object.keys(map).map((k) => map[k]);
 }
+
+export function sortWithShallowCopy<T>(items: T[], cmp: (a: T, b: T) => number) {
+/**
+ * Array.sort() は元の配列を変更していまうため、元の配列を維持するためにはコピーが必要
+ * https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#return_value
+ * 
+ */
+  return [...items].sort(cmp);
+}

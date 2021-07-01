@@ -22,6 +22,14 @@ import * as utils from "../src";
 }
 
 {
+  const org = [5, 3, 2, 8, 1, 4, 6];
+  const sorted = utils.array.sortWithShallowCopy(org, (a, b) => a - b);
+  console.log("sortWithShallowCopy org: ", org);
+  console.log("sortWithShallowCopy sorted: ", sorted);
+}
+
+
+{
   const arr = [
     {id: 1, v: "a"},
     {id: 3, v: "c"},

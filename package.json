@@ -1,6 +1,6 @@
 {
   "name": "@codianz/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CODIANZ general utilities.",
   "main": "./dist/src/index.js",
   "scripts": {
@@ -18,10 +18,10 @@
   ],
   "author": "Terukazu Inoue",
   "license": "MIT",
-  "homepage": "https://github.com/CODIANZ/utils",
+  "homepage": "https://github.com/CODIANZ/npm.utils",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CODIANZ/utils.git"
+    "url": "https://github.com/CODIANZ/npm.utils.git"
   },
   "devDependencies": {
     "typescript": "^4.3.4"
